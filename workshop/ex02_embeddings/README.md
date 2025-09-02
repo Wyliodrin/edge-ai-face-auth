@@ -22,7 +22,7 @@ We use **ConvNeXt-Atto**, an ultra-lightweight variant that provides excellent p
 Embeddings are dense, low-dimensional vector representations that capture the essential characteristics of a face in numerical form.
 
 ### Purpose of Face Embeddings:
-1. **Dimensionality Reduction**: Convert 224×224×3 images (~150K pixels) to compact vectors (~768 dimensions)
+1. **Dimensionality Reduction**: Convert 224×224×3 images (~150K pixels) to compact vectors (~320 dimensions)
 2. **Feature Extraction**: Capture essential facial characteristics (eye shape, nose structure, etc.)
 3. **Similarity Computation**: Enable mathematical comparison between different faces
 4. **Efficient Storage**: Store compact representations instead of full images
