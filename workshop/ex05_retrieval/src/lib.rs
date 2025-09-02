@@ -68,7 +68,7 @@ mod tests {
         
         // Add multiple records with varying similarity to query
         add_record(storage.as_mut(), "perfect", vec![1.0, 0.0, 0.0, 0.0])?; // cos_sim = 1.0
-        add_record(storage.as_mut(), "good", vec![0.8, 0.0, 0.0, 0.0])?;    // cos_sim ≈ 0.8
+        add_record(storage.as_mut(), "good", vec![0.8, 0.8, 0.8, 0.8])?;    // cos_sim ≈ 0.8
         add_record(storage.as_mut(), "medium", vec![0.5, 0.5, 0.0, 0.0])?;  // cos_sim ≈ 0.707
         add_record(storage.as_mut(), "poor", vec![0.0, 1.0, 0.0, 0.0])?;    // cos_sim = 0.0
         add_record(storage.as_mut(), "opposite", vec![-1.0, 0.0, 0.0, 0.0])?; // cos_sim = -1.0
