@@ -42,8 +42,8 @@ Face Auth is a modular face authentication system consisting of three main compo
 ## Quick Start
 
 ```bash
-git clone https://github.com/Radu1999/face_auth.git
-cd face_auth
+git clone https://github.com/Wyliodrin/edge-ai-face-auth.git
+cd face-auth
 cd workshop
 cargo build
 ```
